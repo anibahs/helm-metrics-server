@@ -67,6 +67,8 @@ spec:
         kubernetes.io/os: linux
       priorityClassName: system-cluster-critical
       serviceAccountName: metrics-server
+      imagePullSecrets:
+      - name: regcred
       volumes:
       - emptyDir: {}
         name: tmp-dir
