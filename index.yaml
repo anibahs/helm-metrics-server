@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  metrics-server:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-04T18:51:32.261987696-04:00"
+    description: A Helm chart for Kubernetes
+    digest: a0be5968fd1b15a212d178cf0ef2e28a6699157bc840756dcaf6827802a556cf
+    name: metrics-server
+    type: application
+    urls:
+    - metrics-server-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-08-04T18:51:32.256071409-04:00"
